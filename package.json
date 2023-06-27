@@ -2,7 +2,7 @@
   "name": "ite18_blockchain",
   "private": true,
   "version": "0.0.0",
-
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
