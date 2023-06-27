@@ -19,7 +19,7 @@ function ToDo() {
 				backgroundRepeat: "no-repeat",
 				backgroundPosition: "center",
 			}}>
-			<div className='w-8/12 h-96 border border-accent rounded-2xl p-4'>
+			<div className='w-8/12 h-96 border border-accent rounded-2xl p-8'>
 				<div className='flex justify-between'>
 					<div className='flex gap-4 items-center'>
 						{[1, 2, 3].map((index) => {
@@ -56,8 +56,12 @@ function ToDo() {
 					</motion.div>
 				</div>
 				<h1 className='text-white font-bold text-4xl my-8'>
-					Welcome back, Francis!
+					Welcome back,{" "}
+					<span className='bg-gradient-to-tr from-blue-800 to-blue-400 bg-clip-text text-transparent'>
+						Francis
+					</span>
 				</h1>
+				<p className='text-white text-xl mb-4'>In today's tasks</p>
 				<CreateTodo />
 			</div>
 		</div>
