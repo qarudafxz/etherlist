@@ -48,4 +48,10 @@ contract TaskContract {
    emit DeleteTask(taskId, isDeleted);
   }
  }
+
+ //login with metamask
+ function login() external view returns (address) {
+  return msg.sender;
+ }
+
 }
